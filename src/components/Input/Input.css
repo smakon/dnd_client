@@ -1,0 +1,36 @@
+input[type='text'],
+input[type='password'],
+input[type='email'],
+input[type='search'],
+input[type='tel'] {
+	padding-left: 8px;
+	outline: none;
+}
+
+input[type="button"]{
+   padding: none;
+   border-radius: 1rem;
+}
+
+input[type="color"]{
+   padding: none;
+}
+
+input{
+   background-color: #f9f9f9;
+   border: none;
+	border-radius: 1rem;
+}
+
+.input-small{
+   height: 2.5dvh;
+   font-size: small;
+}
+.input-medium{
+	height: 3.5dvh;
+   font-size: medium;
+}
+.input-large{
+   height: 4.5dvh;
+   font-size: large;
+}
